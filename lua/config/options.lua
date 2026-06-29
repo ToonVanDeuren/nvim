@@ -7,3 +7,4 @@ vim.opt.showtabline = 2
 
 -- Detect KCL files
 vim.filetype.add({ extension = { k = "kcl" } })
+vim.opt.scrolloff = 9
