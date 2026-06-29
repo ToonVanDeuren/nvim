@@ -4,3 +4,6 @@
 
 vim.o.shell = "fish"
 vim.opt.showtabline = 2
+
+-- Detect KCL files
+vim.filetype.add({ extension = { k = "kcl" } })
